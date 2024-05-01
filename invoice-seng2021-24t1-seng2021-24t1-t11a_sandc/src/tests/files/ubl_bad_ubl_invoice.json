@@ -1,0 +1,22 @@
+{
+    "issueDate (YYYY-MM-DD)": "@{currentdate}",
+    "successful": false,
+    "summary": "Schematron validation on file 'invoice.xml' completed with status: FAILED. Total failed assertions count= 1. Failed assertions codes: { BR-02 }. Total reports count= 0. ",
+    "totalErrorCount": 1,
+    "results": {
+        "EN16931_Syntax": {
+            "successful": false,
+            "summary": "Validation result for AUNZ_UBL_1_0_10: Failed. Failed assertions count = 1. Assertion errors: { BR-02 }. Schematron Reports fired: no schematron reports fired. ",
+            "errorCodes": [
+                "BR-02"
+            ],
+            "errors": [
+                {
+                    "id": "BR-02",
+                    "breached_rule": "[BR-02]-An Invoice shall have an Invoice number (BT-1).",
+                    "location": "/*:Invoice[namespace-uri()='urn:oasis:names:specification:ubl:schema:xsd:Invoice-2'][1]"
+                }
+            ]
+        }
+    }
+}

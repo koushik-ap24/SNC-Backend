@@ -1,0 +1,20 @@
+{
+    "issueDate (YYYY-MM-DD)": "@{currentdate}",
+    "successful": true,
+    "summary": "Schematron validation on file 'invoice.xml' completed with status: SUCCESS. Total failed assertions count= 0. Total reports count= 0. ",
+    "totalErrorCount": 0,
+    "results": {
+        "AUNZ_PEPPOL": {
+            "successful": true,
+            "summary": "Validation result for AUNZ_PEPPOL_1_0_10: Successful. No assertion errors fired.Schematron Reports fired: no schematron reports fired. ",
+            "errorCodes": [],
+            "errors": []
+        },
+        "EN16931_Syntax": {
+            "successful": true,
+            "summary": "Validation result for AUNZ_UBL_1_0_10: Successful. No assertion errors fired.Schematron Reports fired: no schematron reports fired. ",
+            "errorCodes": [],
+            "errors": []
+        }
+    }
+}

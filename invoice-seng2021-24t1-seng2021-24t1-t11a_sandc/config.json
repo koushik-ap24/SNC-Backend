@@ -1,0 +1,5 @@
+{
+    "url": "http://localhost",
+    "port": "32343",
+    "authURL": "https://dev-eat.auth.eu-central-1.amazoncognito.com/oauth2/token"
+}

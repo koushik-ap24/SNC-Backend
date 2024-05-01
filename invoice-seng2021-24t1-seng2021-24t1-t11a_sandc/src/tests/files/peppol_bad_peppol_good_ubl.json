@@ -1,0 +1,22 @@
+{
+    "issueDate (YYYY-MM-DD)": "@{currentdate}",
+    "successful": false,
+    "summary": "Schematron validation on file 'invoice.xml' completed with status: FAILED. Total failed assertions count= 1. Failed assertions codes: { PEPPOL-EN16931-R003 }. Total reports count= 0. ",
+    "totalErrorCount": 1,
+    "results": {
+        "AUNZ_PEPPOL": {
+            "successful": false,
+            "summary": "Validation result for AUNZ_PEPPOL_1_0_10: Failed. Failed assertions count = 1. Assertion errors: { PEPPOL-EN16931-R003 }. Schematron Reports fired: no schematron reports fired. ",
+            "errorCodes": [
+                "PEPPOL-EN16931-R003"
+            ],
+            "errors": [
+                {
+                    "id": "PEPPOL-EN16931-R003",
+                    "breached_rule": "A buyer reference or purchase order reference MUST be provided.",
+                    "location": "/*:Invoice[namespace-uri()='urn:oasis:names:specification:ubl:schema:xsd:Invoice-2'][1]"
+                }
+            ]
+        }
+    }
+}
